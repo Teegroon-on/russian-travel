@@ -1,0 +1,26 @@
+.place__website{
+  grid-area: url;
+  padding-top: 106px;
+  margin: 0 0 8px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website{
+    margin: 0 0 16px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website{
+    margin: 0 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .place__website{
+    padding-top: 0;
+    max-width: 288px;
+    margin: 0 0 32px 16px;
+    align-self: flex-start;
+  }
+}
