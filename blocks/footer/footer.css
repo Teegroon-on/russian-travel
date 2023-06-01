@@ -1,21 +1,22 @@
-.footer{
+.footer {
+  margin: 92px auto 24px;
+  width: calc(100% - 2 * 48px);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 92px 48px 0 48px;
-  padding: 0 0 24px 0;
+  padding-bottom: 24px;
 }
 
-@media screen and (max-width: 817px) {
-  .footer{
-    margin: 92px 24px 0 24px;
+@media screen and (max-width: 984px) {
+  .footer {
+    width: calc(100% - 2 * 24px);
+    margin: 88px auto 24px;
   }
 }
 
-@media screen and (max-width: 760px) {
-  .footer{
+@media screen and (max-width: 568px) {
+  .footer {
+    width: calc(100% - 2 * 16px);
+    margin: 64px auto 24px;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 92px 16px 0 16px;
   }
 }
