@@ -1,5 +1,5 @@
 .intro__list{
-  font-family: 'Inter', Arial, sans-serif;;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -8,5 +8,4 @@
   padding: 0;
   list-style-type: none;
   color: white;
-  text-rendering: optimizeLegibility;
 }
