@@ -6,12 +6,13 @@
   letter-spacing: 0em;
   text-align: center;
   color: white;
-  margin: 32px 0 64px 0;
+  margin: 32px auto 64px auto;
+  max-width: 640px;
 }
 
 @media  screen and (max-width: 1024px) {
   .lead__subtitle{
-    margin: 32px 0 56px 0;
+    margin: 32px auto 56px auto;
   }
 }
 
@@ -19,6 +20,7 @@
   .lead__subtitle{
     font-size: 16px;
     line-height: 20px;
-    margin: 16px 0 40px 0;
+    margin: 16px auto 40px auto;
+    max-width: 288px;
   }
 }
