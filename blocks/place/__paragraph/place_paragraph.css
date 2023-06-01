@@ -22,10 +22,6 @@
   .place__paragraph {
     padding: 0 16px;
   }
-
-  .place__paragraph:last-of-type {
-    margin-bottom: 0;
-  }
 }
 
 

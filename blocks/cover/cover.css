@@ -7,3 +7,9 @@
     margin: 92px 0 0 0;
   }
 }
+
+@media screen and (max-width: 568px) {
+  .cover {
+    margin: 66px 0 0 0;
+  }
+}
