@@ -11,6 +11,7 @@
   justify-self: left;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 768px) {

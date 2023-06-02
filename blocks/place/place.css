@@ -24,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 599px) {
   .place {
     grid-template-columns: 100%;
     gap: 16px;
