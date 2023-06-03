@@ -7,5 +7,17 @@
   color: white;
   margin: 40px 0 33px 0;
   padding: 0;
-  max-width: 768px;
+  max-width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text{
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text{
+    max-width: 288px;
+  }
 }
